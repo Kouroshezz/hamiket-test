@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 
-NOTE : For editing the post you need to login 
-Login username is a iranian phone number and password could be anything as long as it contains more than 8 char
+NOTE : For editing the post you need to login /
+Login username is Iranian phone number and password could be anything as long as it contains more than 8 char
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
