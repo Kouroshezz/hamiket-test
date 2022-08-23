@@ -176,20 +176,20 @@ function Posts() {
       </div>
       <ReactPaginate
         breakLabel="..."
-        nextLabel="next >"
+        nextLabel="Next >"
         onPageChange={handlePageClick}
         pageRangeDisplayed={2}
         pageCount={pagestoshow}
-        previousLabel="< previous"
+        previousLabel="< Prev"
         marginPagesDisplayed={2}
         containerClassName='flex justify-center items-baseline my-6'
         pageClassName='p-2'
         pageLinkClassName='border border-secondary-100 rounded-md p-2 hover:border-primary'
         activeClassName='btn btn-primary border-none p-0'
-        previousClassName='p-2'
+        previousClassName='text-sm md:text-lg md:p-2'
         previousLinkClassName='p-2'
-        nextClassName=''
-        nextLinkClassName='p-2'
+        nextClassName='text-sm md:text-lg'
+        nextLinkClassName='md:p-2'
         breakClassName=''
         breakLinkClassName='text-lg'
       />
