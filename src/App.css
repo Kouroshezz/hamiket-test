@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+  .text-disabled{
+    @apply text-sm text-gray-500
+  }
+  .btn {
+    @apply inline-flex justify-center items-center py-3 px-4 rounded-md
+  }
+  .btn-primary{
+    @apply bg-primary text-secondary-300 hover:bg-blend-lighten
+  }
+  .btn-secondary{
+    @apply border border-primary hover:bg-primary hover:text-secondary-300
+  }
+  .btn-disabled{
+    @apply grayscale
+  }
+}
+
+input:focus{
+  outline: none;
+}
+.authLayout-bg{
+  background-image: url('../public/images/auth-bg.jpg');
+  background-repeat: no-repeat;
+  background-repeat: center;
+  background-size: cover;
+}
+/* ----------- OTP Styles -------------- */
+.vi__container {
+	direction: ltr !important;
+}
+form .container {
+	width: 100%;
+	display: flex;
+	direction: ltr;
+	justify-content: space-between;
+}
+.character {
+	margin: 0 10px;
+	line-height: 15px;
+	padding:15px 10px 0 10px;
+	border-radius:.5rem;
+  font-size: 18px;
+	@apply  border bg-slate-100 border-gray-300
+}
+.character--selected {
+  @apply border-primary text-primary bg-white;
+  outline: none;
+}
+.active-input-opt {
+	@apply text-secondary-100 bg-primary
+}
+/* --------------------------------------- */
